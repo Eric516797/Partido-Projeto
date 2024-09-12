@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partido Livre - PL</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            background-color: #222;
+        }
+
+        .navbar-brand img {
+            width: 50px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #f4c542;
+        }
+
+        .btn-doacao {
+            background-color: #f4c542;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .banner {
+            background: url('banner-image.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 4rem;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .section-title {
+            color: #f4c542;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        .card-custom {
+            background-color: #333;
+            border: none;
+            color: #fff;
+        }
+
+        .card-custom:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #222;
+            padding: 30px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-icons a {
+            color: #f4c542;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="C:\Users\PET0147119\Documents\PLF\img\Captura de tela 2024-09-10 105719.png" alt="Logo Partido Liberal">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Institucional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partido nos Estados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fili-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-doacao" href="#">Faça uma Doação</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="container">
+            <h1>Partido Livre</h1>
+            <p>Unindo o Brasil com valores e responsabilidade</p>
+            <a href="#" class="btn btn-doacao btn-lg mt-4">Saiba mais</a>
+        </div>
+    </div>
+
+    <!-- Section: Sobre o Partido -->
+    <section class="section bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title">Sobre o Partido</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead">O Partido Liberal (PL) defende os valores da liberdade econômica, a justiça social e o fortalecimento da democracia. Trabalhamos para o desenvolvimento do Brasil com responsabilidade fiscal e compromisso com a ética.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">Nosso partido é composto por líderes que acreditam no futuro do Brasil e lutam diariamente para transformar nosso país em uma nação mais justa, próspera e segura para todos os brasileiros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Notícias -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Últimas Notícias</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-custom">
+                        <img src="C:\Users\PET0147119\Documents\PLF\img\fragata-liberal.avif" class="card-img-top" alt="Notícia 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Petrobras, batalhões e navios militares: quanto o Brasil depende da Starlink de Elon Musk?</h5>
+                            <p class="card-text">A recente disputa entre o Supremo Tribunal Federal (STF) e o dono do X (antigo Twitter), o bilionário Elon Musk, chamou a atenção do mundo na última semana por conta da suspensão da rede social no Brasil, iniciada na semana passada.</p>
+                            <a href="#" class="btn btn-outline-light">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom">
+                        <img src="C:\Users\PET0147119\Documents\PLF\img\age20220429024-1024x682.jpg" class="card-img-top" alt="Notícia 2">
+                        <div class="card-body">
+                            <h5 class="card-title">censura jovem pan</h5>
+                            <p class="card-text"> O plenário do TSE (Tribunal Superior Eleitoral) puniu a emissora Jovem Pan em três decisões proferidas em julgamento no plenário virtual nesta semana.</p>
+                            <a href="#" class="btn btn-outline-light">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-custom">
+                        <img src="C:\Users\PET0147119\Documents\PLF\img\Captura de tela 2024-09-10 105824.png" class="card-img-top" alt="Notícia 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Novo candidato do PL</h5>
+                            <p class="card-text">O PL propôs um novo candidato a presidência do Brasil.</p>
+                            <a href="#" class="btn btn-outline-light">Leia mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Doação -->
+    <section class="section bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="section-title">Contribua com o Partido</h2>
+            <p class="lead">Apoie o Partido Liberal e ajude a construir um Brasil mais justo. Faça uma doação agora.</p>
+            <a href="#" class="btn btn-doacao btn-lg">Doe Agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white">
+        <div class="container">
+            <p>&copy; 2024 Partido Livre. Todos construindo um futuro melhor.</p>
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
